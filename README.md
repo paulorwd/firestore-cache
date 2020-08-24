@@ -1,6 +1,6 @@
 # Firestore-Cache
 
-A Simple Wrapper npm-module to use Google Cloud Firestore DB with Caching enabled on requests and responses
+A Simple Wrapper npm-module to use Google Cloud Firestore DB with a Simple In-Memory Caching Mechanism enabled on requests and responses
 
 # How to use?
 
