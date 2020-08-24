@@ -1,0 +1,30 @@
+{
+  "name": "firestore-cache",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "firebase-admin": "^9.0.0",
+    "typescript": "^3.9.7",
+    "uuidv4": "^6.2.2",
+    "object-sizeof": "^1.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewdex/fire-cache.git"
+  },
+  "bugs": {
+    "url": "https://github.com/andrewdex/fire-cache/issues"
+  },
+  "homepage": "https://github.com/andrewdex/fire-cache",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --w"
+  },
+  "keywords": [],
+  "author": "Dilusha Gonagala",
+  "license": "MIT"
+}
