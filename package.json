@@ -2,10 +2,8 @@
   "name": "firestore-cache",
   "version": "1.0.0",
   "description": "",
-  "main": "./lib/index.js",
-  "directories": {
-    "lib": "lib"
-  },
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "dependencies": {
     "firebase-admin": "^9.0.0",
     "typescript": "^3.9.7",
@@ -24,7 +22,14 @@
     "build": "tsc",
     "watch": "tsc --w"
   },
-  "keywords": [],
+  "files": [
+    "lib/**/*"
+  ],
+  "keywords": [
+    "firstore",
+    "cache",
+    "wrapper"
+  ],
   "author": "Dilusha Gonagala",
   "license": "MIT"
 }
