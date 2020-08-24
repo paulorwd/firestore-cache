@@ -1,6 +1,6 @@
 {
   "name": "firestore-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,7 +20,8 @@
   "homepage": "https://github.com/andrewdex/firestore-cache",
   "scripts": {
     "build": "tsc",
-    "watch": "tsc --w"
+    "watch": "tsc --w",
+    "version": "git add -A src"
   },
   "files": [
     "lib/**/*"
