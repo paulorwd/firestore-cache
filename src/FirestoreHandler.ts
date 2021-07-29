@@ -11,7 +11,10 @@ export class FirestoreHandler {
   }
 
   async init(db: fbObj) {
-    const serviceAccountKey = await import(db.serviceAccKeyFilePath);
+    const serviceAccountKey = typeof db.serviceAccKeyFilePath === 'string' 
+      ? await import(db.serviceAccKeyFilePath)
+      : db.serviceAccKeyFilePath;
+  
     this.fireApp = initializeApp({
       credential: credential.cert(serviceAccountKey as any)
     });

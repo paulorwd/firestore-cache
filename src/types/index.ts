@@ -1,11 +1,11 @@
 type DbT = {
-  serviceAccKeyFilePath: string;
+  serviceAccKeyFilePath: any;
   cache_max_age: number;
   cache_allocated_memory: number;
 };
 
 type fbObj = {
-  serviceAccKeyFilePath: string;
+  serviceAccKeyFilePath: any;
 };
 
 type docCollection = {
