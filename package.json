@@ -1,6 +1,6 @@
 {
-  "name": "firestore-cache",
-  "version": "1.0.3",
+  "name": "firestore-cache-v2",
+  "version": "1.0.4",
   "description": "",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/andrewdex/firestore-cache.git"
+    "url": "https://github.com/paulorwd/firestore-cache.git"
   },
   "bugs": {
-    "url": "https://github.com/andrewdex/firestore-cache/issues"
+    "url": "https://github.com/paulorwd/firestore-cache/issues"
   },
-  "homepage": "https://github.com/andrewdex/firestore-cache",
+  "homepage": "https://github.com/paulorwd/firestore-cache",
   "scripts": {
     "build": "tsc",
     "watch": "tsc --w",

@@ -85,4 +85,18 @@ export class Database {
     }
     return response;
   }
+
+  async delete<T>(readObj: docCollection) {
+    let response;
+    try {
+      const { id, collection } = readObj;
+
+      response = await this.fs.delete(readObj);
+
+      this.cache.delete(collection[id]);
+    } catch (error) {
+      throw error;
+    }
+    return response;
+  }
 }

@@ -36,6 +36,10 @@ export class CacheHandler {
       return false;
     }
   }
+  delete(key) {
+    this.handleMemoryAllocation();
+    delete this.cacheObj[key];
+  }
   isCacheExpired() {
     return Date.now() > this.getDate.getTime() + this.cache_max_age;
   }

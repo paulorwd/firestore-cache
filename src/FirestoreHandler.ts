@@ -82,4 +82,15 @@ export class FirestoreHandler {
 
     return docData;
   }
+
+  async delete<T>(readObj: docCollection) {
+    const { collection, id } = readObj;
+
+    const response = await this.fireStoreNS
+      .collection(collection)
+      .doc(id)
+      .delete();
+
+    return response;
+  }
 }
